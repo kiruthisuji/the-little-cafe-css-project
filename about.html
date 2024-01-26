@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content ="karpagam">
+    <meta name="description" content ="about the TCS cafe" >
+    <title>TCS cafe</title> 
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">LITTLE CAFE </h1>
+    <!-- used to navigate to pages -->
+    <nav class="header__nav">
+        <ul class="header__ul">
+            <!-- these take u to that section in the same page by scrolling -->
+            <li>
+                <a href="/">Home 
+
+                </a>
+            </li>
+            <li>
+                <a href="#menu"> Menu</a>
+                   
+            </li>
+            <!-- these take u to next page -->
+            <li>
+                <a href="hours.html">hours</a>
+                   
+            </li>
+            <li>
+                <a href="contact.html">contact</a>
+                   
+            </li>
+            
+        </ul>
+    </nav>
+
+</header>
+
+
+    <section class="hero">
+        <figure>
+            <!-- image download from unplash-->
+            <img src="about.png" alt="taste the cup" title="The delicious cup!"
+            width="820" height="180">
+            <figcaption class="offscreen">
+                Take a sip to refresh
+            </figcaption>
+        </figure>
+    </section>
+
+    <main class="main">
+        <article id="about" class="main__article about">
+            <h2> About <abbr title =" The Little cafe shop">TCS</abbr></h2>
+            <p>
+                <abbr title="The little cafe Shop">tcs</abbr>
+                <time datetime="2023">2023</time>
+                Our shop was built from a love of coffee bean.
+                <ol>
+                    <li>
+                        We hope our shop adds a unique and special
+                    </li>
+                    <!-- can ad emoji from emojipedia.org-->
+                    <li> Let every sip of the coffee would add more memories...😊</li>
+                    <li><strong> Just relax and take a sip</strong> </li>
+                </ol>
+                <aside class="about__trivial">
+                    <h3> coffee trivial</h3>
+                    <details>
+                        <!-- for the question and to see answer by clicking the arrow-->
+                        <summary> when did first coffee invented? </summary>
+                        <p class="about__trivial-answer">
+                            Coffee grown worldwide can trace its heritage back centuries
+                             to the ancient coffee forests on the Ethiopian plateau.
+             There, legend says the goat herder Kaldi first discovered the potential of these beloved beans. 
+             (Source: <cite> 
+<a href="https://www.ncausa.org/about-coffee/history-of-coffee#:~:text=An%20Ethiopian%20Legend&text=There%2C%20legend%20says%20the%20goat,want%20to%20sleep%20at%20night.">the website to know more
+
+             </a></cite>)
+                        </p>
+                    </details>
+                </aside>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>
+            <span class="nowrap">copyright &lt;&lt;&copy;<time id="year"></time></span>
+            <span class="nowrap"> the little cafe &gt;&gt;&gt;</span> 
+        </p>
+    </footer>
+
+</body>
+</html>

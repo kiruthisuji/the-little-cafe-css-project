@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content ="karpagam">
+    <meta name="description" content ="The official website for the little cafe shop" >
+    <title>my html web page</title> 
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="js/main.js" defer></script>
+</head>
+<head>
+    <body>
+        <header class="header">
+            <h1 class="header__h1">THE LITTLE CAFE </h1>
+        <!-- used to navigate to pages -->
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <!-- these take u to that section in the same page by scrolling -->
+                
+                <li>
+                    <a href="#menu"> Menu</a>
+                       
+                </li>
+                <!-- these take u to next page -->
+                <li>
+                    <a href="hours.html">hours</a>
+                       
+                </li>
+                <li>
+                    <a href="contact.html">contact</a>
+                       
+                </li>
+                <li>
+                    <a href="about.html">About 
+
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2 class="hero__h2"> Bienvenidos!</h2>
+        <figure>
+            <!-- image download from unplash-->
+            <img src="aboutcof.avif" alt="take a break with coffee" 
+            width="1000" height="620">
+            <figcaption class="offscreen">
+                the taste of coffee
+            </figcaption>
+        </figure>
+    </section>
+
+    
+    <main class="main">
+        <!-- our content-->
+    
+        <article id = "menu" class="main__article">
+            <h2 class="menu__h2"> Our menu </h2>
+            <!-- creating a table-->
+            <table class="menu__container">
+                <caption class="offscreen"> our  coffee drinks </caption>
+                <thead>
+                    <tr>
+                        <th class="menu__header"  scope="col">Coffee</th>
+                        <th  class="menu__header" scope="col"><abbr title="Quantity">
+                            QTY
+                        </abbr></th>
+                        <th class="menu__header" scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th  class="menu__item menu__cr" scope="row" rowspan="3">
+                            taste drinks
+                        </th>
+                        <td class="menu__item">1 cup</td>
+                        <td class="menu__item">Rs 30</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">1 cup+print</td>
+                        <td class="menu__item">Rs 160</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">1 cup + toppings</td>
+                        <td class="menu__item">Rs 120</td>
+                    </tr>
+                    <tr>
+                        <th class="menu__item menu__sf" scope="row" rowspan="3">
+                            cold drinks
+                        </th>
+                        <td class="menu__item">cold cup</td>
+                        <td class="menu__item">Rs 30</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">1 ice cup+chocolate</td>
+                        <td class="menu__item">Rs 140</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item"> 2 ice shake </td>
+                        <td class="menu__item">Rs 190</td>
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <td  class="menu__item menu__cs" colsapn="3">
+                        other drink &amp; mixed shake rs 200
+                    </td>
+                </tfoot>
+            </table>
+         
+            <p class="center">
+                <a href="#"> Back to top </a>
+            </p>
+        </article>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">copyright &lt;&lt;&copy; <time id="year"></time></span>
+            <span class="nowrap"> the little cafe &gt;&gt;&gt;</span> 
+        </p>
+    </footer>
+    </body>
+        
+    </head>
+</html>

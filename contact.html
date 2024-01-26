@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset ="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content ="karpagam">
+    <meta name="description" content ="the contact information" >
+    <title>my html web page</title> 
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="js/main.js" defer></script>
+</head>
+<head>
+    <body>
+        <header class="header">
+        <h1 class="header__h1">Little cafe</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="/">Home</a>
+                       
+                </li>
+                
+                <li>
+                    <a href="/#menu">Menu</a>
+                       
+                </li>
+                <li>
+                    <a href="hours.html">hours</a>    
+                </li>
+                <li>
+                    <a href="about.html">About 
+                    </a>
+                </li>
+                
+            </ul>
+        </nav>
+      
+    </header>
+    <section class="hero">
+    <figure>
+        <img src="contact.jpg" alt="contact for more" 
+        width="820" height="120">
+        <figcaption class="offscreen">
+            the contact delivery 
+        </figcaption>
+    </figure>
+</section>
+    <main class="main">
+        <article class="main__article">
+            <h2> our location</h2>
+            <address>
+                leema rose nursery, coonoor 
+                <br>
+                <br>
+                phone: <a href="tel:+9876543210">555-555-5555</a>
+            </address>
+        </article>  
+            <hr>
+        <article class="main__article contact">
+        <!-- our content-->
+        <h2 class="contact__h2"> CATCH UP HERE</h2>
+        <form action="http://httpbin.org/get"
+        method="get" class="contact__form">
+        <fieldset class="contact__fieldset">
+            <legend class="offscreen"> Send us a message</legend>
+            <p class="contact__P">
+                <label for="name">Name:</label>
+                <input class="contact__input" type="text" name="name" id="name"
+                placeholder="your name" required>
+            </p>
+            <p class="contact__p">
+                <label class="contact__label" for="Email">Email:</label>
+                <input class="contact__input" type="text" name="Eamil" id="email"
+                placeholder="your mail" required>
+            </p>
+            <p class="contact__p">
+                <label  class="contact__label" for="message">your message:</label>
+                <br>
+                <textarea class="contact__textarea"name="message" id="message"
+                cols="30" rows="10" placeholder="Type your message"></textarea>
+            </p>
+
+        </fieldset>
+        <button class="contact__button" type="submit">send</button>
+        <button class="contact__button" type="reset">reset</button>
+    </article>
+
+    </main>
+    <hr>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">copyright &lt;&lt;&copy;<time id="year"></time></span>
+            <span class="nowrap"> the little cafe &gt;&gt;&gt;</span> 
+        </p>
+    </footer>
+    </body>
+        
+    </head>
+</html>
